@@ -1,0 +1,14 @@
+<svg width="500" height="500" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="50" y="50" width="400" height="400" rx="30" fill="#93C5F3"/>
+  <text x="50%" y="65%" font-size="40" text-anchor="middle" fill="#333333" font-family="sans-serif">Our Services</text>
+  <line x1="100" y1="100" x2="400" y2="100" stroke="#333333" stroke-width="2"/>
+  <text x="100" y="125" font-size="20" fill="#333333" font-family="sans-serif">Massage Therapy</text>
+  <line x1="100" y1="150" x2="400" y2="150" stroke="#333333" stroke-width="2"/>
+  <text x="100" y="175" font-size="20" fill="#333333" font-family="sans-serif">Chiropractic Care</text>
+  <line x1="100" y1="200" x2="400" y2="200" stroke="#333333" stroke-width="2"/>
+  <text x="100" y="225" font-size="20" fill="#333333" font-family="sans-serif">Acupuncture</text>
+  <line x1="100" y1="250" x2="400" y2="250" stroke="#333333" stroke-width="2"/>
+  <text x="100" y="275" font-size="20" fill="#333333" font-family="sans-serif">Physiotherapy</text>
+  <line x1="100" y1="300" x2="400" y2="300" stroke="#333333" stroke-width="2"/>
+  <text x="100" y="325" font-size="20" fill="#333333" font-family="sans-serif">Naturopathy</text>
+</svg>
