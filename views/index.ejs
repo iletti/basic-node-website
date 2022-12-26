@@ -1,45 +1,18 @@
 <!-- views/index.ejs -->
 
-<!-- Header -->
-<header>
-    <h1><%= business.name %></h1>
-    <p><%= business.address %> | <%= business.city %>, <%= business.state %> <%= business.zip %> | <%= business.phone %></p>
-  </header>
-  
-  <!-- Navigation menu -->
-  <nav>
-    <ul>
-      <li><a href="/">Etusivu</a></li>
-      <li><a href="/about">Tietoa</a></li>
-      <li><a href="/services">Palvelut</a></li>
-      <li><a href="/contact">Yhteys</a></li>
-    </ul>
-  </nav>
-  
-  <!-- Overview of services -->
-  <h2>Palvelut</h2>
-  <p><%= business.name %> on sijoittelupalveluita tarjoava yritys. <%= services.join(', ') %>, ovat alaamme.</p>
-  <img src="/images/services.svg" alt="<%= business.name %>">
-  
-  <!-- Call to action -->
-  <a href="/contact" class="button">Ota meihin yhteyttä</a>
-  
-  <!-- Testimonials -->
-  <h2>Mitä asiakkaat sanovat meistä:</h2>
-  <% for (const testimonial of testimonials) { %>
-    <blockquote>
-      <p>"<%= testimonial.text %>"</p>
-      <cite>- <%= testimonial.author %>.</cite>
-    </blockquote>
-  <% } %>
-  
-  <!-- Footer -->
-  <footer>
-    <p><%= business.name %> | <%= business.address %> | <%= business.city %>, <%= business.state %> <%= business.zip %> | <%= business.phone %></p>
-    <ul>
-      <li><a href="#"><%= business.facebook %></a></li>
-      <li><a href="#"><%= business.twitter %></a></li>
-      <li><a href="#"><%= business.linkedin %></a></li>
-    </ul>
-  </footer>
-  
+<h1>Welcome to My Website</h1>
+<p>This is the home page of my website. Here, you can find information about the services I offer and read my latest blog posts.</p>
+
+<h2>Featured Services</h2>
+<ul>
+  <li>Service 1</li>
+  <li>Service 2</li>
+  <li>Service 3</li>
+</ul>
+
+<h2>Recent Blog Posts</h2>
+<ul>
+  <li><a href="/blog/post-1">Post 1</a></li>
+  <li><a href="/blog/post-2">Post 2</a></li>
+  <li><a href="/blog/post-3">Post 3</a></li>
+</ul>

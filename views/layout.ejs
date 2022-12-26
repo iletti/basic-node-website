@@ -1,0 +1,17 @@
+<!-- views/layout.ejs -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= pageTitle %> - My Website</title>
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <%- include('partials/header.ejs') %>
+    <main>
+      <%- body %>
+    </main>
+    <%- include('partials/footer.ejs') %>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
