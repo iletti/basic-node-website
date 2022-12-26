@@ -1,0 +1,22 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <linearGradient id="gradient" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#00BFFF"/>
+    <stop offset="100%" stop-color="#ADD8E6"/>
+  </linearGradient>
+  <circle cx="100" cy="100" r="100" fill="#ccc" stroke="#ccc" stroke-width="2"/>
+  <path d="M100 50 L50 150 L150 150 Z" fill="none" stroke="#333333" stroke-width="2"/>
+  <path d="M100 50 L50 150 L150 150 Z" fill="url(#gradient)" transform="rotateX(45) rotateY(45)" filter="url(#shadow)" />
+  <text x="50%" y="60%" font-size="2em" text-anchor="middle" fill="#ffffff" font-family="sans-serif" font-weight="bold">Placeholder</text>
+  <text x="50%" y="75%" font-size="1em" text-anchor="middle" fill="#ffffff" font-family="sans-serif">Logo</text>
+  <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+    <feOffset dx="2" dy="2" result="offsetblur"/>
+    <feComponentTransfer>
+      <feFuncA type="linear" slope="0.5"/>
+    </feComponentTransfer>
+    <feMerge>
+      <feMergeNode/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+</svg>
